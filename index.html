@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Form</title>
+    </head>
+<body>
+
+    <h2>Add Student</h2>
+
+    <!-- Input Fields -->
+    <label>Name:</label>
+    <input type="text" id="name"><br><br>
+
+    <label>Age:</label>
+    <input type="number" id="age"><br><br>
+
+    <label>Graduated:</label>
+    <select id="graduation">
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+    </select><br><br>
+
+    <!-- Button -->
+    <button onclick="addStudent()">Add Student</button>
+
+    <!-- Table -->
+    <table id="studentTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Graduated</th>
+                <th>Job Eligibility</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <script>
+        function addStudent() {
+            let name = document.getElementById("name").value;
+            let age = document.getElementById("age").value;
+            let graduation = document.getElementById("graduation").value;
+
+            // Job eligibility logic
+            let eligibility = (graduation === "Yes" && age >= 18) ? "Eligible" : "Not Eligible";
+
+            // Create new row
+            let table = document.getElementById("studentTable").getElementsByTagName("tbody")[0];
+            let newRow = table.insertRow();
+
+            // Insert cells
+            newRow.insertCell(0).innerText = name;
+            newRow.insertCell(1).innerText = age;
+            newRow.insertCell(2).innerText = graduation;
+            newRow.insertCell(3).innerText = eligibility;
+        }
+    </script>
+
+</body>
+</html>
