@@ -1,9 +1,38 @@
-table, th, td {
-            border: 1px solid black;
-            border-collapse: collapse;
-            padding: 8px;
-        }
-        table {
-            margin-top: 20px;
-            width: 60%;
-        }
+th {
+    border: 1px solid black;
+
+    padding: 10px;
+}
+
+
+
+#StudentTable {
+    margin: 50px auto;
+    width: 60%;
+}
+
+.heading {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.headerr {
+    border: 1px solid black;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin:50px auto;
+
+
+    width: 25%;
+
+}
+
+button {
+    padding: 10px;
+    width:90%;
+    color:white;
+    background-color: rgba(0, 0, 255, 0.625);
+    border:1px solid black;
+}
