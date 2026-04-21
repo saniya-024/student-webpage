@@ -16,9 +16,20 @@
 
 
 // check of a person is adult or minor
-let age=34;
-if(age>=18){
-    console.log("the person is adult");
+// let age=34;
+// if(age>=18){
+//     console.log("the person is adult");
+// }else{
+//     console.log("minor");
+// }
+// 
+
+// check if a no is positive or negative
+let num=8;
+if(num>0){
+    console.log("the no is positive");
+}else if(num<0){
+    console.log("the no is negative");
 }else{
-    console.log("minor");
+    console.log("print zero");;
 }
