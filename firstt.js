@@ -90,7 +90,13 @@
 //     console.log("not a leap year");
 // }
 
-// check age using ternary operator
-let age=28;
-let result=(age>=18) ? "Adult" : "Minor" ;
+// // check age using ternary operator
+// let age=28;
+// let result=(age>=18) ? "Adult" : "Minor" ;
+// console.log(result);
+
+
+// even or odd using ternary operator
+let num=8;
+let result=(num%2===0) ? "Even" : "Odd";
 console.log(result);
