@@ -73,13 +73,19 @@
 //     console.log("not divisible by 5");
 // }
 
-// divide by both 3 and 5
-let num=15;
-if(num%5===0 && num%3===0){
-    console.log("yes divisible by both 3 and 5");
+// // divide by both 3 and 5
+// let num=15;
+// if(num%5===0 && num%3===0){
+//     console.log("yes divisible by both 3 and 5");
+// }else{
+//     console.log("not divisible");
+// }
+
+
+// check leap year or not
+let year=2024;
+if((year%4===0 && year%100!==0) || (year%400===0)){
+    console.log("yes leap year");
 }else{
-    console.log("not divisible");
-
-    
+    console.log("not a leap year");
 }
-
