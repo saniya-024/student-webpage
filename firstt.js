@@ -15,4 +15,10 @@
 // }
 
 
-// 
+// check of a person is adult or minor
+let age=34;
+if(age>=18){
+    console.log("the person is adult");
+}else{
+    console.log("minor");
+}
