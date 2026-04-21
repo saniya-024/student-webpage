@@ -54,13 +54,22 @@
 //     console.log("no is not zero");
 // }
 // create the grade system
-let marks = 85;
-if (marks >= 90) {
-    console.log("grade A");
-} else if (marks >= 80) {
-    console.log("grade B");
-} else if (marks >= 70) {
-    console.log("grade C");
-} else {
-    console.log("failed")
+// let marks = 85;
+// if (marks >= 90) {
+//     console.log("grade A");
+// } else if (marks >= 80) {
+//     console.log("grade B");
+// } else if (marks >= 70) {
+//     console.log("grade C");
+// } else {
+//     console.log("failed")
+// }
+
+// no is divisible by 5 or not
+let num=50;
+if (num%5===0){
+    console.log("yes divide by 5");
+}else{
+    console.log("not divisible by 5");
 }
+
