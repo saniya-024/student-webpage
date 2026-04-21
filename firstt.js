@@ -106,8 +106,13 @@
 // let result=(marks>=30)? "Pass" :"Fail";
 // console.log(result);
 
-// largest among two numbers
-let number1=34;
-let number2=20;
-let result=(number1>number2)? number1:number2;
+// // largest among two numbers
+// let number1=34;
+// let number2=20;
+// let result=(number1>number2)? number1:number2;
+// console.log(result);
+
+// positive or negative 
+let num=3;
+let result=(num>=0) ? "positive":"negative";
 console.log(result);
