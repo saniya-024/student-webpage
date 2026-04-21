@@ -82,10 +82,15 @@
 // }
 
 
-// check leap year or not
-let year=2024;
-if((year%4===0 && year%100!==0) || (year%400===0)){
-    console.log("yes leap year");
-}else{
-    console.log("not a leap year");
-}
+// // check leap year or not
+// let year=2024;
+// if((year%4===0 && year%100!==0) || (year%400===0)){
+//     console.log("yes leap year");
+// }else{
+//     console.log("not a leap year");
+// }
+
+// check age using ternary operator
+let age=28;
+let result=(age>=18) ? "Adult" : "Minor" ;
+console.log(result);
