@@ -101,7 +101,13 @@
 // let result=(num%2===0) ? "Even" : "Odd";
 // console.log(result);
 
-// pass\fail using ternary operator
-let marks=45;
-let result=(marks>=30)? "Pass" :"Fail";
+// // pass\fail using ternary operator
+// let marks=45;
+// let result=(marks>=30)? "Pass" :"Fail";
+// console.log(result);
+
+// largest among two numbers
+let number1=34;
+let number2=20;
+let result=(number1>number2)? number1:number2;
 console.log(result);
