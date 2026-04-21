@@ -46,10 +46,21 @@
 // }
 
 
-// check if a number is zero
-let num=0;
-if(num===0){
-    console.log("no is zero");
-}else{
-    console.log("no is not zero");
+// // check if a number is zero
+// let num=0;
+// if(num===0){
+//     console.log("no is zero");
+// }else{
+//     console.log("no is not zero");
+// }
+// create the grade system
+let marks = 85;
+if (marks >= 90) {
+    console.log("grade A");
+} else if (marks >= 80) {
+    console.log("grade B");
+} else if (marks >= 70) {
+    console.log("grade C");
+} else {
+    console.log("failed")
 }
