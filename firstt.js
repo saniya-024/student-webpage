@@ -25,22 +25,31 @@
 // 
 
 // check if a no is positive or negative
-// let num=8;
-// if(num>0){
-//     console.log("the no is positive");
-// }else if(num<0){
-//     console.log("the no is negative");
+// // let num=8;
+// // if(num>0){
+// //     console.log("the no is positive");
+// // }else if(num<0){
+// //     console.log("the no is negative");
+// // }else{
+// //     console.log("print zero");
+// // }
+
+// // print largest among 2 numbers
+// let num1=10;
+// let num2=20;
+// if(num1<num2){
+//     console.log("num2 is largest");
+// }else if(num1>num2){
+//     console.log("num1 is largest");
 // }else{
-//     console.log("print zero");
+//     console.log("both are equal");
 // }
 
-// print largest among 2 numbers
-let num1=10;
-let num2=20;
-if(num1<num2){
-    console.log("num2 is largest");
-}else if(num1>num2){
-    console.log("num1 is largest");
+
+// check if a number is zero
+let num=0;
+if(num===0){
+    console.log("no is zero");
 }else{
-    console.log("both are equal");
+    console.log("no is not zero");
 }
