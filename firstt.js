@@ -96,7 +96,12 @@
 // console.log(result);
 
 
-// even or odd using ternary operator
-let num=8;
-let result=(num%2===0) ? "Even" : "Odd";
+// // even or odd using ternary operator
+// let num=8;
+// let result=(num%2===0) ? "Even" : "Odd";
+// console.log(result);
+
+// pass\fail using ternary operator
+let marks=45;
+let result=(marks>=30)? "Pass" :"Fail";
 console.log(result);
