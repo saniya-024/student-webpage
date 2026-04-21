@@ -112,7 +112,13 @@
 // let result=(number1>number2)? number1:number2;
 // console.log(result);
 
-// positive or negative 
-let num=3;
-let result=(num>=0) ? "positive":"negative";
-console.log(result);
+// // positive or negative 
+// let num=3;
+// let result=(num>=0) ? "positive":"negative";
+// console.log(result);
+
+// for loop
+for(let i=1;i<=10;i++){
+
+console.log(i);
+}
