@@ -65,11 +65,21 @@
 //     console.log("failed")
 // }
 
-// no is divisible by 5 or not
-let num=50;
-if (num%5===0){
-    console.log("yes divide by 5");
+// // no is divisible by 5 or not
+// let num=50;
+// if (num%5===0){
+//     console.log("yes divide by 5");
+// }else{
+//     console.log("not divisible by 5");
+// }
+
+// divide by both 3 and 5
+let num=15;
+if(num%5===0 && num%3===0){
+    console.log("yes divisible by both 3 and 5");
 }else{
-    console.log("not divisible by 5");
+    console.log("not divisible");
+
+    
 }
 
