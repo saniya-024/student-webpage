@@ -118,7 +118,58 @@
 // console.log(result);
 
 // for loop
-for(let i=1;i<=10;i++){
+// for(let i=10;i>=1;i--){
 
-console.log(i);
+// console.log(i);
+// }
+
+// to pribnt even number from 1 to 20
+// for(i=1;i<=20;i++){
+//     if(i%2===0){
+//         console.log(i);
+//     }
+
+    
+// }
+
+// for(i=1;i<=20;i++){
+//     if(i%2!==0){
+//         console.log(i);
+//     }
+
+    
+// }
+// print table of 5
+// for (let i = 1; i <= 10; i++) {
+//     console.log(`5 x ${i} = ${5 * i}`);
+// }
+
+// // print sum of numbers fron 1 to 10
+// let sum=0;
+// for(let i=1;i<=10;i++){
+//     sum=sum+i;
+// }
+// console.log("Sum=",sum);
+
+// print stars
+
+    // Repeat only for first 2 rows
+for (let i = 1; i <= 3; i++) {
+    // First increasing pattern
+    for (let j = 1; j <= i; j++) {
+        console.log("*");
+    }
+    console.log("<br>");
+
+    // Repeat only for first 2 rows
+    if (i < 3) {
+        for (let j = 1; j <= i + 1; j++) {
+            console.log("*");
+        }
+        console.log("<br>");
+    }
+}
+// print reverse numbers
+for (let i = 50; i >= 1; i--) {
+    console.log(i);
 }
