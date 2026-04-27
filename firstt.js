@@ -173,7 +173,10 @@
 // for (let i = 50; i >= 1; i--) {
 //     console.log(i);
 // }
-// use strings
-let fullName = prompt("enter yor fullame without spaces");
-let username="@" + fullName+ fullName.length;
-console.log(username);
+// // use strings
+// let fullName = prompt("enter yor fullame without spaces");
+// let username="@" + fullName+ fullName.length;
+// console.log(username);
+for(let i=1;i<=10;i++){
+    console.log("5 x"+i+"="+(5*i));
+} 
