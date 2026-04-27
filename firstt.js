@@ -176,4 +176,4 @@
 // use strings
 let fullName = prompt("enter yor fullame without spaces");
 let username="@" + fullName+ fullName.length;
-console.log("")
+console.log(username);
