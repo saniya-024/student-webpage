@@ -153,23 +153,27 @@
 
 // print stars
 
-    // Repeat only for first 2 rows
-for (let i = 1; i <= 3; i++) {
-    // First increasing pattern
-    for (let j = 1; j <= i; j++) {
-        console.log("*");
-    }
-    console.log("<br>");
+//     // Repeat only for first 2 rows
+// for (let i = 1; i <= 3; i++) {
+//     // First increasing pattern
+//     for (let j = 1; j <= i; j++) {
+//         console.log("*");
+//     }
+//     console.log("<br>");
 
-    // Repeat only for first 2 rows
-    if (i < 3) {
-        for (let j = 1; j <= i + 1; j++) {
-            console.log("*");
-        }
-        console.log("<br>");
-    }
-}
-// print reverse numbers
-for (let i = 50; i >= 1; i--) {
-    console.log(i);
-}
+//     // Repeat only for first 2 rows
+//     if (i < 3) {
+//         for (let j = 1; j <= i + 1; j++) {
+//             console.log("*");
+//         }
+//         console.log("<br>");
+//     }
+// }
+// // print reverse numbers
+// for (let i = 50; i >= 1; i--) {
+//     console.log(i);
+// }
+// use strings
+let fullName = prompt("enter yor fullame without spaces");
+let username="@" + fullName+ fullName.length;
+console.log("")
