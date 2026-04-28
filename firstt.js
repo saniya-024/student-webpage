@@ -176,7 +176,13 @@
 // // use strings
 // let fullName = prompt("enter yor fullame without spaces");
 // let username="@" + fullName+ fullName.length;
-// console.log(username);
-for(let i=1;i<=10;i++){
-    console.log("5 x"+i+"="+(5*i));
-} 
+// // console.log(username);
+// for(let i=1;i<=10;i++){
+//     console.log("5x"+i+"="+(5*i));
+// } 
+// sum= of numbers from 1 to 100
+let sum=0;
+for(let i=1;i<=100;i++){
+    sum+=i;
+}
+console.log(sum);
