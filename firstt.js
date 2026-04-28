@@ -180,9 +180,19 @@
 // for(let i=1;i<=10;i++){
 //     console.log("5x"+i+"="+(5*i));
 // } 
-// sum= of numbers from 1 to 100
-let sum=0;
-for(let i=1;i<=100;i++){
-    sum+=i;
+// // sum= of numbers from 1 to 100
+// let sum=0;
+// for(let i=1;i<=100;i++){
+//     sum+=i;
+// }
+// console.log(sum);
+
+// factorial of number
+let num = 5;
+let fact = 1;
+
+for (let i = 1; i <= num; i++) {
+    fact *= i;
 }
-console.log(sum);
+
+console.log(fact);
