@@ -187,12 +187,20 @@
 // }
 // console.log(sum);
 
-// factorial of number
-let num = 5;
-let fact = 1;
+// // factorial of number
+// let num = 5;
+// let fact = 1;
 
-for (let i = 1; i <= num; i++) {
-    fact *= i;
+// for (let i = 1; i <= num; i++) {
+//     fact *= i;
+// }
+
+// console.log(fact);
+
+
+// for loop use
+let age=18;
+if(age>=18){
+    text="adult";
 }
-
-console.log(fact);
+console.log(age);
