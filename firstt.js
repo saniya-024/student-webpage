@@ -198,9 +198,15 @@
 // console.log(fact);
 
 
-// for loop use
-let age=18;
-if(age>=18){
-    text="adult";
-}
-console.log(age);
+// // for loop use
+// let age=18;
+// if(age>=18){
+//     text="adult";
+// }
+// console.log(age);
+
+// use of constant keyword
+const obj = { name: "Saniya" };
+obj.name = "Rahul"; // ✅ allowed
+console.log(obj);
+
