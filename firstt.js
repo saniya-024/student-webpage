@@ -214,5 +214,6 @@
 var x=1;
 {
     var x=2;
+    console.log("inside:",x);
 }
-console.log(x);
+console.log("outside:",x);
