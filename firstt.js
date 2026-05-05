@@ -205,8 +205,14 @@
 // }
 // console.log(age);
 
-// use of constant keyword
-const obj = { name: "Saniya" };
-obj.name = "Rahul"; // ✅ allowed
-console.log(obj);
+// // use of constant keyword
+// const obj = { name: "Saniya" };
+// obj.name = "Rahul"; // ✅ allowed
+// console.log(obj);
 
+// variables are override
+var x=1;
+{
+    var x=2;
+}
+console.log(x);
