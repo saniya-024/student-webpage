@@ -129,7 +129,7 @@
 //         console.log(i);
 //     }
 
-    
+
 // }
 
 // for(i=1;i<=20;i++){
@@ -137,7 +137,7 @@
 //         console.log(i);
 //     }
 
-    
+
 // }
 // print table of 5
 // for (let i = 1; i <= 10; i++) {
@@ -218,5 +218,9 @@
 // }
 // console.log("outside:",x);
 
-let a=12;
-a=true;
+// let a=12;
+// a=true;
+
+
+let x;
+console.log(x);
