@@ -222,7 +222,12 @@
 // a=true;
 
 
-let x;
-console.log(x);
-let y=null;
-console.log(y);
+// let x;
+// console.log(x);
+// let y=null;
+// console.log(y);
+for(let i=1;i<51;i++){
+    if(i%3===0){
+        console.log(i);
+    }
+}
