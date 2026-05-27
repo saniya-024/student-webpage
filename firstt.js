@@ -233,3 +233,7 @@
 // }
 
 
+let inp = document.querySelector("input");
+inp.addEventListener("input", function () {
+    console.log(inp.value.length)
+});
