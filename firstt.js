@@ -233,9 +233,10 @@
 // }
 
 
-let inp = document.querySelector("input");
-let span = document.querySelector("span");
+// let inp = document.querySelector("input");
+// let span = document.querySelector("span");
 
-inp.addEventListener("input", function () {
-span.textContent=20-inp.value.length;
-});
+// inp.addEventListener("input", function () {
+// span.textContent=20-inp.value.length;
+// });
+document.cookie="email=samgmail.com"
