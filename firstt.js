@@ -239,4 +239,5 @@
 // inp.addEventListener("input", function () {
 // span.textContent=20-inp.value.length;
 // });
+
 document.cookie="email=samgmail.com"
