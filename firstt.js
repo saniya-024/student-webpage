@@ -240,4 +240,5 @@
 // span.textContent=20-inp.value.length;
 // });
 
-document.cookie="email=samgmail.com"
+// document.cookie="email=samgmyyyyail.com"
+console.log(5==="5");
