@@ -241,4 +241,8 @@
 // });
 
 // document.cookie="email=samgmyyyyail.com"
-console.log(5==="5");
+// console.log(5==="5");
+
+let b = 2;
+console.log(b);
+
