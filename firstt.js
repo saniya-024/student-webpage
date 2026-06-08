@@ -243,6 +243,13 @@
 // document.cookie="email=samgmyyyyail.com"
 // console.log(5==="5");
 
-let b = 2;
+const b = 2;
+{
+
+const c=34;
+console.log(c);
+
+}
 console.log(b);
+console.log(c);
 
