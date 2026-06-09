@@ -243,13 +243,22 @@
 // document.cookie="email=samgmyyyyail.com"
 // console.log(5==="5");
 
-const b = 2;
-{
+// const b = 2;
+// {
 
-const c=34;
-console.log(c);
+// const c=34;
+// console.log(c);
 
-}
-console.log(b);
-console.log(c);
+// }
+// console.log(b);
+// console.log(c);
 
+// let x=2;
+// x++;
+// let z=x;
+// console.log(z);
+
+let text="12345";
+let max=Math.max(...text);
+let min=Math.min(...text);
+console.log(max);
