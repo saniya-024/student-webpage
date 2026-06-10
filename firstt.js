@@ -262,3 +262,4 @@ let text="12345";
 let max=Math.max(...text);
 let min=Math.min(...text);
 console.log(max);
+console.log(min);
