@@ -258,8 +258,10 @@
 // let z=x;
 // console.log(z);
 
-let text="12345";
-let max=Math.max(...text);
-let min=Math.min(...text);
-console.log(max);
-console.log(min);
+// let text="12345";
+// let max=Math.max(...text);
+// let min=Math.min(...text);
+// console.log(max);
+// console.log(min);
+
+console.log(this);
