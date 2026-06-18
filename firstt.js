@@ -264,4 +264,25 @@
 // console.log(max);
 // console.log(min);
 
-console.log(this);
+// console.log(this);
+
+
+
+
+//constructor used here
+class User{
+    constructor(name,address,username,email,role){
+        this.name=name;
+        this.address=address;
+        this.email=email;
+        this.role=role;
+    }
+
+    write(text){
+        let h1=document.createElement("h1");
+        h1.textContent='${this.name1}:${text}';
+        document.body.appendChild(h1);
+}
+}
+
+let u1=new User("harsh","bhopal","abcharsh","hassabc.com","tech")
