@@ -270,19 +270,29 @@
 
 
 //constructor used here
-class User{
-    constructor(name,address,username,email,role){
-        this.name=name;
-        this.address=address;
-        this.email=email;
-        this.role=role;
-    }
+// class User{
+//     constructor(name,address,username,email,role){
+//         this.name=name;
+//         this.address=address;
+//         this.email=email;
+//         this.role=role;
+//     }
 
-    write(text){
-        let h1=document.createElement("h1");
-        h1.textContent='${this.name1}:${text}';
-        document.body.appendChild(h1);
-}
-}
+//     write(text){
+//         let h1=document.createElement("h1");
+//         h1.textContent='${this.name1}:${text}';
+//         document.body.appendChild(h1);
+// }
+// }
 
-let u1=new User("harsh","bhopal","abcharsh","hassabc.com","tech")
+// let u1=new User("harsh","bhopal","abcharsh","hassabc.com","tech")
+
+
+let pr=new Promise(function(res,rej)){
+    setTimeout(() =>{   
+        let rn=Math.floor(Math.random*10);
+        if(rn>5)res("resolved with"+rn);
+        else rej("rejected with"+rn);
+    },3000);
+})
+[]
